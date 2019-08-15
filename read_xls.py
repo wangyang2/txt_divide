@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
 # python_version = 3.5
 # convert excel to txt if necessary
-
 import xlrd
 import io
+
 list1 = []
 data = xlrd.open_workbook('fdc_wenben.xls')
 table = data.sheet_by_name(u'Sheet1')
