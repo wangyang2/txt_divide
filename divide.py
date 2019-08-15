@@ -1,5 +1,6 @@
 # -*- coding:UTF-8 -*-
 # python_version = 3.5
+
 filecount = 0
 
 file1 = open('wenben.txt', 'r', encoding='utf-8-sig')
